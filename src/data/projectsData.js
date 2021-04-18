@@ -1,13 +1,13 @@
 export default [
   {
     title: "Portfolio",
-    image: "https://guido-asbun.s3.amazonaws.com/Portfolio.gif",
-    githubLink: "https://github.com/guidoasbun/portfolio",
-    deployLink: "https://www.guido-asbun.com",
+    image: "https://guido-asbun.s3.amazonaws.com/Portfolio2.png",
+    githubLink: "https://github.com/guidoasbun/snap-portfolio",
+    deployLink: "https://safety.d20qispccpdccf.amplifyapp.com/",
     summary:
-      "A full stack web application to showcase my information and projects",
+      "Portfolio page to showcase my applications",
     techUsed:
-      "React JS, HTTP/CSS, AWS (Elastic Beanstalk, CodeBuild, EC2, Load Balancer, Route 53, S3 Bucket)",
+      "React JS, HTTP/CSS, AWS, Material UI",
   },
   {
   title: "Simple Calculator",
@@ -19,6 +19,16 @@ export default [
     techUsed:
 "Vanilla JavaScript, CSS, HTML, Flex Box, Bootstrap 5, Github Pages",
 },
+  {
+    title: "Snake",
+    image: "https://guido-asbun.s3.amazonaws.com/snake.png",
+    githubLink: "https://github.com/guidoasbun/snake-javascript",
+    deployLink: "https://guidoasbun.github.io/snake-javascript/",
+    summary:
+        "The snake game. Move the snake using the direction keys, eat all the food.",
+    techUsed:
+        "Vanilla JavaScript, CSS, HTML, Flex Box, Bootstrap 5, Github Pages",
+  },
   {
     title: "CrypIt",
     image: "https://guido-asbun.s3.amazonaws.com/CrypIt.png",
