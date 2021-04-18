@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/snap-portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/snap-portfolio/static/js/main.c1ffaad2.chunk.js",
+    "main.js.map": "/snap-portfolio/static/js/main.c1ffaad2.chunk.js.map",
+    "runtime-main.js": "/snap-portfolio/static/js/runtime-main.09ee7987.js",
+    "runtime-main.js.map": "/snap-portfolio/static/js/runtime-main.09ee7987.js.map",
+    "static/js/2.0270b352.chunk.js": "/snap-portfolio/static/js/2.0270b352.chunk.js",
+    "static/js/2.0270b352.chunk.js.map": "/snap-portfolio/static/js/2.0270b352.chunk.js.map",
+    "index.html": "/snap-portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/snap-portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.0270b352.chunk.js.LICENSE.txt": "/snap-portfolio/static/js/2.0270b352.chunk.js.LICENSE.txt",
+    "static/media/IMG_0879.f2bdd1a0.JPG": "/snap-portfolio/static/media/IMG_0879.f2bdd1a0.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09ee7987.js",
+    "static/js/2.0270b352.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.c1ffaad2.chunk.js"
+  ]
+}
