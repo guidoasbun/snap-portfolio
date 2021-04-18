@@ -25,7 +25,6 @@ function App() {
               <Route path="/contact" component={Contact}/>
               <Route path="/*" component={NotFound}/>
           </Switch>
-           <Footer/>
         </div>
       </Router>
     </ThemeProvider>
