@@ -19,7 +19,7 @@ export default function RecipeReviewCard() {
 
    return (
        <Card className={classes.root}>
-          <img src={image} className={classes.media} alt={"Snap Image"}/>
+          <img src='https://guido-asbun.s3.amazonaws.com/IMG_0879.JPG' className={classes.media} alt={"Snap Image"}/>
        </Card>
    );
 }
