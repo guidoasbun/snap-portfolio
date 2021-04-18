@@ -1,7 +1,9 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
-import image from '../assets/images/profile-image-2.png'
+import { deepOrange } from '@material-ui/core/colors';
+
+import image from '../assets/images/IMG_0879.JPG'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,6 +20,12 @@ const useStyles = makeStyles((theme) => ({
     width: theme.spacing(23),
     height: theme.spacing(23),
   },
+  square: {
+    color: theme.palette.getContrastText(deepOrange[500]),
+    backgroundColor: deepOrange[500],
+    height: theme.spacing(23),
+    width: theme.spacing(23),
+  },
 }));
 
 const ProfileImage = () => {
@@ -27,7 +35,7 @@ const ProfileImage = () => {
       <Avatar
         alt="Guido Asbun"
         src={image}
-        className={classes.large}
+        className={classes.square}
       />
 
     </div>

@@ -26,6 +26,7 @@ import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Skills from "./Skills";
 import Projects from "./projects/Projects";
 import ProfileImage from "../ProfileImage";
+import ProfileImageCard from "../ProfileImageCard"
 
 const { uuid } = require('uuidv4');
 const drawerWidth = 210;
@@ -129,7 +130,7 @@ function Menu(props) {
 
   const drawer = (
     <div>
-      <ProfileImage />
+      <ProfileImageCard />
       <Divider />
       <List>
         {menuItemTop.map((item, index) => (
