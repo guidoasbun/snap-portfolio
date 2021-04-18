@@ -25,7 +25,6 @@ import { Link } from "react-router-dom";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Skills from "./Skills";
 import Projects from "./projects/Projects";
-import ProfileImage from "../ProfileImage";
 import ProfileImageCard from "../ProfileImageCard"
 
 const { uuid } = require('uuidv4');
