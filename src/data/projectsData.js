@@ -10,6 +10,16 @@ export default [
       "React JS, HTTP/CSS, AWS (Elastic Beanstalk, CodeBuild, EC2, Load Balancer, Route 53, S3 Bucket)",
   },
   {
+  title: "Simple Calculator",
+    image: "https://guido-asbun.s3.amazonaws.com/Calculator.png",
+    githubLink: "https://github.com/guidoasbun/calculator-vanillaJS",
+    deployLink: "https://guidoasbun.github.io/calculator-vanillaJS/",
+    summary:
+"A simple calculator that calculates basic arithmetic. Multiplication, Division, Addition, Subtraction",
+    techUsed:
+"Vanilla JavaScript, CSS, HTML, Flex Box, Bootstrap 5, Github Pages",
+},
+  {
     title: "CrypIt",
     image: "https://guido-asbun.s3.amazonaws.com/CrypIt.png",
     githubLink: "https://github.com/guidoasbun/cryp-it",

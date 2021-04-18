@@ -15,12 +15,16 @@ import WebIcon from '@material-ui/icons/Web';
 const useStyles = makeStyles({
   root: {
     maxWidth: 300,
-    minHeight: 510,
+    minHeight: 600,
     alignContent: "center",
   },
+   title: {
+     color: '#0f4c75'
+   },
   image: {
-    height: 150,
-    width: 150,
+     alignItems: "center",
+     width: 200,
+     height: 200
   },
   divider: {
     marginBottom: "20px",
@@ -40,7 +44,7 @@ const ProjectCard = (props) => {
   const classes = useStyles();
   return (
     <Card className={classes.root}>
-      <Typography gutterBottom variant="h5" component="h3" color="primary">
+      <Typography gutterBottom variant="h5" component="h3" className={classes.title}>
         {title}
       </Typography>
       <Divider className={classes.divider} />

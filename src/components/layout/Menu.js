@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
       width: `calc(100% - ${drawerWidth}px)`,
       height: "75px",
       marginLeft: drawerWidth,
-      background: "yellow"
+      background: 'primary'
     },
   },
   name: {
