@@ -9,7 +9,6 @@ import Skills from "./components/layout/Skills";
 import Projects from "./components/layout/projects/Projects";
 import Contact from "./components/layout/Contact";
 import NotFound from "./components/layout/NotFound";
-import Footer from "./components/layout/Footer";
 
 function App() {
   return (
