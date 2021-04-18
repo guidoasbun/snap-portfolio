@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Menu from "./components/layout/Menu";
 import Home from "./components/layout/Home";
-
 import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./components/theme/theme";
 import AboutMe from "./components/layout/AboutMe";

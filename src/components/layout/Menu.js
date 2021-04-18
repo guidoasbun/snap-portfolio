@@ -44,9 +44,14 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     [theme.breakpoints.up("sm")]: {
       width: `calc(100% - ${drawerWidth}px)`,
-      height: "50px",
+      height: "75px",
       marginLeft: drawerWidth,
+      background: "yellow"
     },
+  },
+  name: {
+    color: "black",
+    alignItems: "center"
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -161,9 +166,13 @@ function Menu(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} variant="h2">
       <CssBaseline />
       <AppBar position="fixed" className={classes.appBar}>
+        <Typography variant="h2" className={classes.name} align="center">
+          Guido Asbun
+        </Typography>
+
         <Toolbar>
           <IconButton
             color="inherit"
@@ -209,10 +218,6 @@ function Menu(props) {
       </nav>
       <main className={classes.content}>
         <div className={classes.toolbar} />
-        <Typography variant="h2" noWrap align="center" gutterBottom>
-          {" "}
-          Guido Asbun{" "}
-        </Typography>
       </main>
     </div>
   );
